@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: beige;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.lms.Myaccount">
+<children>
+   <Button fx:id="backButton" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#getData" style="-fx-background-color: #d2b48c;" text="Back" />
+
+   <VBox layoutX="175.0" layoutY="97.0" spacing="10">
+      <Label fx:id="usernameLabel" text="Username:" />
+      <Label fx:id="passwordLabel" text="Password:" />
+      <Label fx:id="fullNameLabel" text="Full Name:" />
+      <Label fx:id="genderLabel" text="Gender:" />
+      <Label fx:id="birthDateLabel" text="Birth Date:" />
+   </VBox>
+      <Text layoutX="103.0" layoutY="112.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Username:" wrappingWidth="78.93670654296875" />
+      <Text layoutX="108.0" layoutY="139.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password:" />
+      <Text layoutX="107.0" layoutY="167.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Full Name:" wrappingWidth="70.4449462890625" />
+      <Text layoutX="114.0" layoutY="196.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Gender:" />
+      <Text layoutX="107.0" layoutY="222.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Birth Date:" />
+      <Button fx:id="changePasswordButton" layoutX="233.0" layoutY="273.0" mnemonicParsing="false" onAction="#openDialog" style="-fx-background-color: #d2b48c;" text="Change Password" />
+      <Button fx:id="deleteAccount" layoutX="233.0" layoutY="321.0" mnemonicParsing="false" onAction="#deleteAccount" prefHeight="26.0" prefWidth="110.0" style="-fx-background-color: #d2b48c;" text="Delete Account" />
+      <ImageView fx:id="myAccountIcon" fitHeight="122.0" fitWidth="110.0" layoutX="374.0" layoutY="107.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@myaccount.jpg" />
+         </image>
+      </ImageView>
+      <Text layoutX="203.0" layoutY="65.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Personal Information" wrappingWidth="170.56060791015625">
+         <font>
+            <Font name="Book Antiqua" size="18.0" />
+         </font>
+      </Text>
+</children>
+</AnchorPane>

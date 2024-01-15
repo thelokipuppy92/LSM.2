@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.lms.Admin" style="-fx-background-color: beige;">
+   <children>
+      <TableView fx:id="tableView" layoutX="107.0" layoutY="54.0" prefHeight="246.0" prefWidth="358.0">
+        <columns>
+          <TableColumn fx:id="authorNameColumn" prefWidth="75.0" text="author name" />
+          <TableColumn fx:id="bookNameColumn" prefWidth="75.0" text="book name" />
+            <TableColumn fx:id="categoryNameColumn" prefWidth="75.0" text="category name" />
+            <TableColumn fx:id="bookIdColumn" prefWidth="75.0" text="book id" />
+        </columns>
+         <columnResizePolicy>
+            <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+         </columnResizePolicy>
+      </TableView>
+   </children>
+</AnchorPane>

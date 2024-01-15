@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="200.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.lms.DialogboxReviews">
+    <children>
+        <Button fx:id="saveButton" layoutX="175.0" layoutY="160.0" mnemonicParsing="false" onAction="#saveReview" text="Save" />
+        <Text fx:id="reviewTextLabel" layoutX="35.0" layoutY="40.0" text="Review Text:" />
+        <TextArea fx:id="reviewTextArea" layoutX="24.0" layoutY="55.0" prefHeight="89.0" prefWidth="352.0" />
+    </children>
+</AnchorPane>

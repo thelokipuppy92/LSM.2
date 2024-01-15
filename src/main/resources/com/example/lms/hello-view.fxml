@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIcon?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="432.0" prefWidth="627.0" style="-fx-background-color: #f5f5dc;" styleClass="login-form" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.lms.HelloController">
+   <children>
+      <AnchorPane layoutX="153.0" layoutY="-1.0" prefHeight="432.0" prefWidth="335.0" style="-fx-border-color: #d2b48c; -fx-border-width: 2px; -fx-background-color: beige;">
+         <children>
+            <TextField fx:id="username" layoutX="94.0" layoutY="239.0" promptText="Username" />
+            <PasswordField fx:id="password" layoutX="94.0" layoutY="278.0" promptText="Password" />
+            <Button fx:id="enter_button" layoutX="126.0" layoutY="320.0" mnemonicParsing="false" onAction="#getData" prefHeight="28.0" prefWidth="71.0" style="-fx-background-color: #d2b48c;" text="Enter" textFill="#171616" />
+            <Label layoutX="133.0" layoutY="194.0" text="Login" textFill="#1e1d1d">
+               <font>
+                  <Font name="Times New Roman" size="24.0" />
+               </font>
+            </Label>
+            <FontAwesomeIcon fill="TAN" glyphName="USERS" layoutX="144.0" layoutY="188.0" selectionFill="#1f1f1e" size="3em" wrappingWidth="1.0" />
+            <Label fx:id="wronglogin" layoutX="183.0" layoutY="100.0" textFill="#f40808" />
+            <Button fx:id="register_button" layoutX="237.0" layoutY="365.0" mnemonicParsing="false" onAction="#getData6" prefHeight="28.0" prefWidth="71.0" style="-fx-background-color: #d2b48c;" text="Register" textFill="#1e1d1d" />
+            <Text layoutX="107.0" layoutY="65.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Library Managment System" wrappingWidth="222.56491088867188">
+               <font>
+                  <Font name="System Bold Italic" size="24.0" />
+               </font>
+            </Text>
+            <ImageView fx:id="icon" fitHeight="70.0" fitWidth="86.0" layoutX="14.0" layoutY="39.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@book.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <ImageView fx:id="left" fitHeight="415.0" fitWidth="173.0" layoutX="-20.0" layoutY="41.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@left.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="right" fitHeight="315.0" fitWidth="255.0" layoutX="488.0" layoutY="41.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@right.jpg" />
+         </image></ImageView>
+   </children>
+</AnchorPane>
