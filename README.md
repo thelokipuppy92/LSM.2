@@ -7,7 +7,7 @@ Welcome to the Library Management System! This application allows users to creat
 ## Functionality
 
 1. **Login/Register:**
-   ![Login page](main/login.png)
+   ![Login page](login.png)
    - Upon running the application, users are presented with a login page.
    - Existing users can log in using their username and password.
    - New users can navigate to the registration page to provide personal information and complete the registration process.
