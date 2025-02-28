@@ -13,27 +13,29 @@ Welcome to the Library Management System! This application allows users to creat
    - New users can navigate to the registration page to provide personal information and complete the registration process.
 
 3. **Dashboard:**
+   ![Dashboard page](dashboard.png)
    - After logging in, users are directed to their dashboard with three main options:
-      - Add New Books
-      - See Your Books
-      - Go to Your Account Page
+   - Add New Books
+   - See Your Books
+   - Go to Your Account Page
         
-4. **Add New Books:**
+5. **Add New Books:**
+   ![ Add new book page](add_book.png)
    - Users can search and add books from the existing database.
    - Search options include title, author, category, and ISBN.
    - Books can be sorted alphabetically by title.
    - Users can view reviews from other users for the selected books.
 
-5. **See Your Books:**
+7. **See Your Books:**
    - Users can view a list of borrowed books.
    - Reviews can be submitted for each book.
    - A "Return" button is available to return borrowed books.
 
-6. **Your Account Page:**
+8. **Your Account Page:**
    - Users can view their personal information entered during registration.
    - Passwords can be changed, and accounts can be deleted.
 
-7. **Admin Page:**
+9. **Admin Page:**
    - Admins can access a page listing all books in the database.
      
 ## Future Development
